@@ -1,0 +1,16 @@
+// BROKEN EXPERIMENT - Scratchpad Notes
+// Testing different authentication approaches
+
+// ATTEMPT 1: OAuth integration (NOT WORKING)
+// Missing API key configuration
+
+// ATTEMPT 2: Token-based auth (INCOMPLETE)
+// Never saves token - missing .then() chain
+
+// ATTEMPT 3: Session storage (BUG - infinite loop)
+// while (true) { ... } needs break condition
+
+// NOTES:
+// - Need error handling for network failures
+// - Should implement refresh token mechanism
+// - Consider adding 2FA support
